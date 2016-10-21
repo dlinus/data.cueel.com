@@ -1,0 +1,6 @@
+
+.fm-content, .fm-tail {
+  max-width: 816px;
+  width: 100%; }
+
+.fm-content__second {display:none !important;}
