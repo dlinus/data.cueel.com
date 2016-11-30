@@ -1,0 +1,155 @@
+html, body {
+  font-family: "Roboto", "Nanum Gothic", "Helvetica", Dotum,AppleGothic,sans-serif;
+  font-size: 12px; }
+
+ol, ul {
+  font-size: 1rem;
+  line-height:1.4;
+}
+
+.displaynone {display:none !important;}
+
+.mdl-card__supporting-text {
+    color:#717171; }
+
+.fm-color {color:#8baebf;}
+
+.fm-content {max-width: 1100px;}
+
+.fm-content .mdl-card {
+  display: flex; }
+
+.fm-content__media-full {
+ }
+
+.fm-content__hide {
+  display: none;
+}
+
+.fm-content img {
+  max-width: 100%; }
+
+.fm-content .mdl-card__title-text {
+  width: 100%;
+  text-align: center; }
+
+.fm-content h2, h3 {
+  width: inherit; }
+
+.fm-content h4 {
+  display: block;
+  margin: 24px 0 16px; }
+
+.fm-content .mdl-card__media {
+    background-color: transparent;
+    margin: 0 auto; }
+
+.fm-content dt {
+  float: left;
+  padding-right: 10px; }
+
+.fm-content dd {
+    text-align: left; }
+
+.fm-content .fm-desc__korea {
+    line-height: 28px; }    
+
+.fm-content ol {
+  list-style-type: decimal;
+  padding-left: 40px;
+  margin: 16px 0; }
+
+.fm-content .fm-best .mdl-card__supporting-text {
+    padding:32px; }
+
+.fm-spacer {
+  height: 1px;
+  margin: 1px 0;  }
+
+.fm-spacer-40 {
+  height: 1px;
+  margin: 20px 0; 
+}
+
+.fm-spacer-80 {
+  height: 1px;
+  margin: 40px 0; }
+
+.fm-spacer-100 {
+  height: 1px;
+  margin: 50px 0; }
+
+.fm-spacer-200 {
+  height: 1px;
+  margin: 100px 0;}
+
+.fm-separator {
+  background-image: url(http://gi.esmplus.com/vania11/fm925/images/separator.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px;  }
+
+.fm-separator-logo {
+  background-image: url(http://gi.esmplus.com/vania11/fm925/images/logo80.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px;  }
+
+.fm-content__second {
+  width: inherit;
+}  
+
+.fm-tail ul li {
+  padding-left: 40px;
+  margin: 16px 0; 
+  list-style: disc inside none; }
+
+.fm-tail ol li {
+  padding-left: 40px;
+  margin: 16px 0; 
+  list-style-type: decimal; }
+
+.fm-tail  h4 {
+  display: block;
+  margin: 24px 0 16px; }
+
+
+.fm-button__close {
+    display: none;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    top: 0%;
+    right: 0%;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-image: url(https://data.cueel.com/images/close80.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 200;
+    opacity: 0.7;
+}
+
+
+
+@media (max-width:479px){
+    .mdl-grid {
+        padding: 0px; }
+    .fm-tail ul li {
+      padding-left: 0px; }
+
+    .fm-tail ol li {
+      padding-left: 0px;} }      
+
+@media (max-width: 839px) and (min-width: 480px) {    
+    .mdl-grid {
+        padding: 0px; }
+    .fm-tail ul li {
+      padding-left: 20px; }
+
+    .fm-tail ol li {
+      padding-left: 20px;} }        
+
+@media (min-width:840px){
+    .mdl-grid {
+        padding: 0px; } }
